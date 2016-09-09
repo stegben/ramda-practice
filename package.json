@@ -1,0 +1,26 @@
+{
+  "name": "ramda-practice",
+  "version": "1.0.0",
+  "description": "Practicing JS functional library----Ramda",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stegben/ramda-practice.git"
+  },
+  "author": "cph",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stegben/ramda-practice/issues"
+  },
+  "homepage": "https://github.com/stegben/ramda-practice#readme",
+  "dependencies": {
+    "babel-cli": "^6.14.0",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "ramda": "^0.22.1"
+  }
+}
